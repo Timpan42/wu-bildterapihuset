@@ -6,7 +6,7 @@
     3. text block 1 och 2
     4. google map bild
 
-### Sentrer av blocken i det området det ska vara på.
+### Centrering av blocken i det området det ska vara på.
     1. nav bar
     2. bild område
     3. text block 1 och 2
