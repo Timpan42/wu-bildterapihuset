@@ -1,24 +1,24 @@
 # Min planering för WUen av bildterapihuset
 
 ### Börja med att skapa bygg blocken för sidan.
-    1. nav bar
+    1. nav bar X
     2. bild område
     3. text block 1 och 2
     4. google map bild
 
 ### Centrering av blocken i det området det ska vara på.
-    1. nav bar
+    1. nav bar X
     2. bild område
     3. text block 1 och 2
     4. gör inte google map bild! (kommer senare)
 
 ### Text införande och sentrering 
-    1. nav bar
+    1. nav bar X
     2. bild område
     3. text block 1 och 2
     4. försöka få utsendet av figma skisen med texten och map bilden (Kan behövas ändra i framtiden)
 
- ### Arbete med nav bar 
+ ### Arbete med nav bar X
     1. infoga logga/text
     2. navigations knapparna (text)
     3. her dem i rätt område
