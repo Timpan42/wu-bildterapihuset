@@ -26,7 +26,7 @@ header{
     background-color: #fff3c8;
     align-items: center;
     position: sticky;
-    padding: 30px 10%;
+    padding: 20px 10%;
     top: 0px;
     box-shadow: 0rem, 0rem, 0,5rem black;
     z-index: 1;
@@ -75,4 +75,28 @@ button:hover{
 }
 .img_size{
     max-width: 100%;
+}
+
+.img_text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow_box{
+    background-color: #e4b715;
+    width: 100%;
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.margin-box{
+    margin-top: 2%;
 }
