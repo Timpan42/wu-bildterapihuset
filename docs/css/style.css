@@ -21,6 +21,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
 }
 .bar{
     background-color: #FFFAE8;
@@ -87,10 +88,20 @@ button:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.img_text_p{
+    font-size: 1.5rem;
+    margin-top: 2%;
 }
 
-.img_text_p{
-
+.img_butten{
+    margin-top: 2%;
+}
+.img_butten_text{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
 }
 
 .yellow_box{
@@ -100,6 +111,11 @@ button:hover{
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
+    font-size: 1.2rem;
+}
+
+.yellow_box_p{
+    margin-top: 2%;
 }
 
 .margin_box{
@@ -113,10 +129,14 @@ button:hover{
     margin-right: 15%;
     margin-top: 2%;
 }
-.address_h1{
-    flex-direction: column;
+.address_text{
+    flex-direction: column;   
+    font-size: 2rem;
 }
-
+.address_h3{
+    margin-top: 5%;
+    
+}
 .google_map{
     width: 500px;
     height: 350px; 
