@@ -21,7 +21,6 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
 }
 .bar{
     background-color: #FFFAE8;
@@ -73,9 +72,13 @@ button:hover{
 .img_center{
     display: flex;
     justify-content: center;
+    max-width: 100%;
+}
+.img_relativ{
+    position: relative;
 }
 .img_size{
-    max-width: 100%;
+ max-width: 100%;
 }
 
 .img_text_h1{
@@ -85,7 +88,6 @@ button:hover{
     top: 0;
     left: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     color: aliceblue;
@@ -115,7 +117,7 @@ button:hover{
 }
 
 .yellow_box_p{
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .margin_box{
@@ -128,6 +130,12 @@ button:hover{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 2%;
+    max-width: 100%;  
+    }
+    @media only screen and (max-width: 700px){
+        .address{
+        flex-direction: column;  
+    }
 }
 .address_text{
     flex-direction: column;   
@@ -138,9 +146,20 @@ button:hover{
     
 }
 .google_map{
-    width: 500px;
-    height: 350px; 
-    border: none; 
+    width: 30rem;
+    height: 25rem; 
+    border: none;
+}
+@media only screen and (max-width: 700px){
+    .google_map{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+@media only screen and (max-width: 700px){
+    .img_text_h1, .img_text_p, .yellow_box, .address_text {
+        font-size: 20px;
+    }
 }
 
 footer{
