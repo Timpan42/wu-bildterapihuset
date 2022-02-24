@@ -10,3 +10,6 @@ Har en bild med text i den som kommer vare det första man ser, dock har jag pro
 
     2022-02-17
 Har laggt till en google map på och address på huset. Fixa också texten på bilden.
+
+    2022-02-24
+Har fixat utsendet på texten och mellan rumen mellan dem olika elementen. Har börjat fixa mobil versonen, har börjat skriva media funktioner som ska fixa storlekten på text och google mapen så det pasar mobilen. 
