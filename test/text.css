@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 
 * {
@@ -7,6 +8,9 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;    
+}
 
 
 li, a, button {
@@ -28,6 +32,7 @@ header{
     position: sticky;
     padding: 20px 10%;
     top: 0px;
+    box-shadow: 0rem, 0rem, 0,5rem black;
     z-index: 1;
 }
 
@@ -52,16 +57,6 @@ header{
 
 .nav_links li a:hover{
     color: rgb(226, 32, 32);
-}
-
-@media (max-width: 700px) {
-    .nav_links{
-        
-    }
-
-
-    
-
 }
 
 button{
@@ -108,7 +103,7 @@ button:hover{
 }
 
 .img_butten{
-    margin-top: 2%;
+    margin-top: 10%;
 }
 .img_butten_text{
     font-size: 1.2rem;
@@ -147,6 +142,7 @@ button:hover{
     }
 }
 .address_text{
+    margin-top: 10%;
     flex-direction: column;   
     font-size: 2rem;
 }
