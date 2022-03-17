@@ -4,7 +4,7 @@
 ## 2022-03-17
 
 ## Inledning
-
+Det här projektet handlar om att göra en hemsida sida med HTML och CSS som jag har designat på digitalt skapande med hjälp av Figma. Syftet är att om designa en gammal hemsida så den är mer modern och är enklare att använda.    
 
 ## Bakgrund
 Detta projekt så börjades med att göra ett UX arbete och senare skapade man en Figma design av den hemsida som skulle senare skrivas kodas till en HTML sida och bli upplagt på Github. När designen var klar skrevs planering som säger vilken ordning hemsidan skulle kodas till exempel “börja med en navbar och sen …”.
@@ -24,4 +24,4 @@ En negativ erfarenhet som jag hade var att försöka få webbsidan att fungera/s
 
 
 ## Sammanfattning  
-
+Slutningen så har jag blivit bättre med att koda grunderna till en HTML och att skriva CSS. Dock så finns det möjligheter att för bättra mig själv med att få hemsidan att funka på mobilen och i framtiden kunna skriva hemsidor som är stora delar anpassad till mindre - och större skärmar. 
