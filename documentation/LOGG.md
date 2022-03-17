@@ -13,3 +13,6 @@ Har laggt till en google map på och address på huset. Fixa också texten på b
 
     2022-02-24
 Har fixat utsendet på texten och mellan rumen mellan dem olika elementen. Har börjat fixa mobil versonen, har börjat skriva media funktioner som ska fixa storlekten på text och google mapen så det pasar mobilen. 
+
+    2022-03-17
+Har försökt fixa några av dem kommentarer jag har fot av Jens. 
