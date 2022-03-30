@@ -102,7 +102,7 @@ button:hover{
 }
 .img_text_p{
     font-size: 1.5rem;
-    margin-top: 10%;
+    margin-top: 15px;
 }
 
 .img_butten{
@@ -117,6 +117,7 @@ button:hover{
     background-color: #FFEDAC   ;
     width: 100%;
     padding: 3%;
+    margin-top: 30px;
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
@@ -124,19 +125,17 @@ button:hover{
 }
 
 .yellow_box_p{
-    margin-top: 3%;
+    margin-top: 10px;
 }
 
-.margin_box{
-    margin-top: 2%;
-}
 
 .address{
     display: flex;
     justify-content: space-between;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     max-width: 100%;  
     }
     @media only screen and (max-width: 700px){
@@ -145,7 +144,7 @@ button:hover{
     }
 }
 .address_text{
-    margin-top: 10%;
+    margin-top: 10px;
     flex-direction: column;   
     font-size: 2rem;
 }
