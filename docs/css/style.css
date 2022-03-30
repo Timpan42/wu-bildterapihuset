@@ -97,9 +97,12 @@ button:hover{
     color: aliceblue;
     font-size: 1.5rem;
 }
+.img_text {
+    margin-top: 100px;
+}
 .img_text_p{
     font-size: 1.5rem;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 
 .img_butten{
