@@ -16,7 +16,7 @@ Figma design (https://www.figma.com/file/tSGHqeB8WHdcToXA5W9t0Y/Hus_Te_D?node-id
     
 
 ## Positiva erfarenheter 
-Det som gick bra va att skapa utseendet på hemsidan och det gick bra att fixa dem flesta av problemen. Varför det gick bra att fixa utseendet av hemsidan varför för designingen var relativt simpelt med få komplicerade delar. Det gjorde att det bli enklare att koda. Med att utseendet var enkelt att koda så var problemen som uppstod något som jag redan har sett förut eller något som var enkelt att komma en lösning genom att testa sig fram. Om man håller utseendet enkelt så blir det enklare att utföra och det finns mindre chanser att man gör fel och om det blir fel så är det inte det mest komplicerad att hitta en lösning.   
+Det som gick bra va att skapa utseendet på hemsidan och det gick bra att fixa dem flesta av problemen. Varför det gick bra att fixa utseendet av hemsidan varför för designingen var relativt simpelt med få komplicerade delar. Det gjorde att det bli enklare att koda. Med att utseendet var enkelt att koda så var problemen som uppstod något som jag redan har sett förut eller något som var enkelt att komma en lösning genom att testa sig fram. Om man håller utseendet enkelt så blir det enklare att utföra och det finns mindre chanser att man gör fel och om det blir fel så är det inte det mest komplicerad att hitta en lösning. Jag har validerat sidan och det var få problem som uppstod. En var på knapparna för att en adress användes som inte fick användas som var änkelt att ta bort. Och CSS valideringen så var det fel på storlek att validatorn inte gilade 0,9 rem som exempel. Med det skapar inte störe problem så jag kommer inte ändra det. 
 
 
 ## Negativa erfarenheter
