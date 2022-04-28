@@ -42,24 +42,66 @@ header{
     width: 8%;
     height: 8%;
 }
-.nav_links{
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-light);
+    font-size: 0.9rem;
+}
+.nav {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav a {
+    text-decoration: none;
+}
+.nav-item {
+    padding-right: 2rem;
+}
+.nav-item:first-child {
+    padding-left: 1rem;
+}
+.nav-link {
+    color: var(--color-secondary);
+}
+.nav-link:hover {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+.brand {
+    white-space: nowrap;
+}
+.active {
+    color: var(--color-dark);
+}
+.navbar__collapse-show {
+    display: block !important;
+    width: 100%;
+}
+.navbar__toggle {
+    border: none;
+    background-color: transparent;
 }
 
-.nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+    }
+    .navbar__collapse {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .navbar__toggle {
+        display: none;
+    }
 }
 
-.nav_links li a{
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover{
-    color: rgb(226, 32, 32);
-}
-
-button{
+.buttonX{
     margin-right: 20px;
     padding: 9px 25px;
     background-color: rgba(255, 228, 132,1);
@@ -100,22 +142,40 @@ button:hover{
 .img_text {
     margin-top: 100px;
 }
+@media (max-width: 768px) {
+    .img_text {
+        margin-top: 10px;
+    }
+}
 .img_text_p{
     font-size: 1.5rem;
     margin-top: 15px;
 }
 
+
 .img_butten{
     margin-top: 10%;
+}
+@media (max-width: 768px) {
+    .img_butten {
+        display: none;
+    }
 }
 .img_butten_text{
     font-size: 1.2rem;
     padding: 1rem 2rem;
+    margin-right: 20px;
+    background-color: rgba(255, 228, 132,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
+
 
 .yellow_box{
     background-color: #FFEDAC   ;
-    width: 100%;
+    width: auto;
     padding: 3%;
     margin-right: 15%;
     margin-left: 15%;
